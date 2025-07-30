@@ -1,0 +1,29 @@
+{
+  "port": 3000,
+  "host": "0.0.0.0",
+  "timeout": 30000,
+  "width": 1920,
+  "height": 1080,
+  "cache": "memory",
+  "cacheConfig": {
+    "cacheDurationMinutes": 60,
+    "cacheMaxEntries": 100
+  },
+  "followRedirects": false,
+  "chromeFlags": [
+    "--no-sandbox",
+    "--headless",
+    "--disable-gpu",
+    "--disable-dev-shm-usage",
+    "--disable-setuid-sandbox",
+    "--disable-extensions",
+    "--disable-plugins",
+    "--disable-background-timer-throttling",
+    "--disable-backgrounding-occluded-windows",
+    "--disable-renderer-backgrounding",
+    "--disable-features=TranslateUI,VizDisplayCompositor",
+    "--memory-pressure-off",
+    "--single-process",
+    "--remote-debugging-port=9222"
+  ]
+}
